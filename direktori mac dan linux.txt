@@ -1,0 +1,46 @@
+MAC
+/Applications : berisi aplikasi yang telah terinstall dalam mac
+/Library : berisi library yang diperlukan oleh OS supaya dapat bekerja  dengan maksimal
+/Network : berisi hal-hal yang berkaitan dengan network termasuk device, servers, dll
+/System : berisi file-file OS
+/Users : All user accounts on the machine and their accompanying unique files, settings, etc. Much like /home in Linux
+/Volumes : Mounted devices and volumes, either virtual or real, such as hard disks, CD’s, DVD’s, DMG mounts, etc
+/bin : Essential common binaries, holds files and programs needed to boot the operating system and run properly
+/cores : direktori yang berisi Core Dumps dari OS. The files contain the state of the memory (or RAM) in your Mac at the time the crash happened. So lots of useful information for developers or testers to debug crashes. 
+/dev : device files, all files that represent peripheral devices including keyboards, mice, trackpads, etc
+/etc : machine local system configuration, holds administrative, configuration, and other system files
+/home : direktori ini digunakan untuk menyimpan data atau dokumen dari pengguna
+/net : 
+opt/ : berisi file yang bisa diinstall bleh pengguna namun tidak diperlukan oleh OS untuk bekerja (file tambahan)
+private/ : direktori untuk menyimpan file OS yang pending dan caches, serta database yang dibutuhkan OS untuk bekerja 
+sbin/ : essential system binaries, contains utilities for system administration
+tmp/ : berisi file temporary, caches, dll
+usr/ : Second major hierarchy, includes subdirectories that contain information, configuration files, and other essentials used by the operating system
+var/ : variable data, contains files whose contents change as the operating system runs
+
+UBUNTU
+bin : director ini biasa digunakan untuk menyimpan file-file executable linux, semua perintah-perintah dasar linux biasanya disimpan di folder ini.
+boot : direktori ini biasa digunakan untuk menyimpan file-file yang dibutuhkan saat proses booting linux 
+dev : direktori ini digunakan sistem untuk menyimpan file-file device seperti hardisk, cdrom, floppy, usb, dll. 
+etc : direktori ini digunakan untuk menyimpan file informasi atau konfigurasi dari program atau aplikasi yang terinstall dalam sistem
+home : direktori ini digunakan untuk menyimpan data atau dokumen dari pengguna
+lib : berisi file-file library yang digunakan untuk mendukung kerja kernel Linux
+lib664 : berisi library file sistem untuk sistem operasi 64-bit
+lost+found : pada direktori ini linux menyimpan file-file yang berhasil di recover saat sistem crash. dengan melihat kedalam /lost+found mungkin kita dapat menemukan file yang hilang
+media : merupakan direktori untuk menyimpan direktori-direktori mount point
+mnt : direktori ini digunakan untuk mount (mengaitkan) point semua device yang ada difolder /dev. 
+opt : direktori ini menyimpan file-file tambahan dari vendor-vendor tertentu. Sifatnya hanya optional
+proc : berisi file system khusus yang menunjukkan data-data kernel setiap saat
+root : lokasi paling dasar dari struktur file dan folder yang ada di linux, lokasi ini juga disebut dengan root directory
+run : direktori yang berisi tentang system yang valid sampai system melakukan boot selanjutnya
+sbin : direktori ini juga digunakan untuk menyimpan filefile executable di linux, namun sedikit berbeda dengan bin, sbin hanya bisa diakses oleh root (adminstrator linux) 
+snap : directori ini menyimpan snap package yang data diinstal
+srv : memuatkan data untuk layanan (HTTP, FTP, etc.) yang ditawarkan oleh sistem 
+sys : berisi informasi yang berkaitan dengan kernel, device dan firmware
+tmp : berisi file-file sementara yang dibutuhkan sebuah aplikasi yang sedang berjalan
+usr : direktori ini digunakan untuk menyimpan program atau aplikasi yang akan diinstall kedalam sistem hasil instalasi user
+vagrant : berisi file vagrant
+var : berisi file-file log, mailbox dan data-data aplikasi
+vmlinuz : berisi file virtual machine
+
+
